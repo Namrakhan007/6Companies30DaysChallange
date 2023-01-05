@@ -10,7 +10,7 @@ class Solution:
                 if opp == "+":
                     stack.append(a+b)
                 elif opp =="-":
-                    stack.append(a-b)
+                    stack.append(b-a)
                 elif opp == "*":
                     stack.append(a*b)
                 elif opp == "/":
