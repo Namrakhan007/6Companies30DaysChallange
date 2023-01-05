@@ -6,7 +6,6 @@ class Solution:
         for opp in tokens:
             if opp in ops:
                 a = stack.pop()
-                a
                 b = stack.pop()
                 if opp == "+":
                     stack.append(a+b)
